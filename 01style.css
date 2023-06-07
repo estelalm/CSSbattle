@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: #62374e;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50vw;
+    row-gap: 30vh;
+    margin: 8vw;
+    place-items: center;
+  }
+  div {
+    width: 8vw;
+    height: 8vw;
+    background: #fdc57b;
+  }
